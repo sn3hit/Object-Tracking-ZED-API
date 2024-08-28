@@ -1,0 +1,16 @@
+******************************************************************************
+** Loading concurrent_object_detection_body_tracking.py
+******************************************************************************
+Running object detection ... Press 'Esc' to quit
+[2024-08-14 05:58:38 UTC][ZED][INFO] Logging level INFO
+[2024-08-14 05:58:38 UTC][ZED][INFO] Using USB input... Switched to default resolution HD720
+[2024-08-14 05:58:40 UTC][ZED][INFO] [Init]  Depth mode: ULTRA
+[2024-08-14 05:58:41 UTC][ZED][INFO] [Init]  Camera successfully opened.
+[2024-08-14 05:58:41 UTC][ZED][INFO] [Init]  Camera FW version: 1523
+[2024-08-14 05:58:41 UTC][ZED][INFO] [Init]  Video mode: HD720@60
+[2024-08-14 05:58:41 UTC][ZED][INFO] [Init]  Serial Number: S/N 39345765
+Traceback (most recent call last):
+  File "<string>", line 10, in <module>
+  File "C:\Users\12016\OneDrive\Documents\Vizard\Camelot\concurrent_object_detection_body_tracking.py", line 100, in <module>
+    viewer.init(camera_infos.camera_model, point_cloud_res, obj_param.enable_tracking)
+TypeError: init() missing 1 required positional argument: 'res'

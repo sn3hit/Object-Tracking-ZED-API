@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "<string>", line 10, in <module>
+  File "C:\Users\12016\OneDrive\Documents\Vizard\Camelot\Vizard6.py", line 100, in <module>
+    viewer.init(camera_infos.camera_model, point_cloud_res, obj_param.enable_tracking)
+TypeError: init() missing 1 required positional argument: 'res'
